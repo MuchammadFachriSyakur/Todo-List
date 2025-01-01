@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #f8f9fa;
+}
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.heading .logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  cursor: pointer;
+}
+.wrap-canvas {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.wrap-canvas canvas {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+}
+.content .day-list {
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.content .day-list .day-header {
+  width: 100%;
+  text-align: left;
+  font-size: medium;
+  margin-bottom: 12px;
+}
+.content .day-list .header {
+  margin-bottom: 12px;
+}
+.content .day-list .task-list {
+  width: 100%;
+  min-height: 125px;
+  max-height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: scroll;
+  gap: 16px;
+}
+.content .day-list .task-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.content .day-list .task-list::-webkit-scrollbar-thumb {
+  background: #4caf50;
+  border-radius: 4px;
+}
+
+.content .day-list .task-list::-webkit-scrollbar-thumb:hover {
+  background: #45a049;
+}
+
+.content .day-list .task-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.content .day-list .task-list .task-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.content .day-list .task-list .task-item .task-name {
+  width: 95%;
+  text-align: left;
+}
+.content .day-list .task-list .task-item img {
+  width: 15px;
+  height: 15px;
+}

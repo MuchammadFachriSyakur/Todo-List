@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "task": [
+      {
+        "name": "Membuat video konten",
+        "completed": true
+      },
+      {
+        "name": "Mengerjakan Website To Do",
+        "completed": true
+      }
+    ],
+    "date": "01 January 2025"
+  },
+  {
+    "id": 2,
+    "task": [
+      {
+        "name": "Melanjutkan Figma [MobileApp]",
+        "completed": true
+      },
+      {
+        "name": "Melanjutkan Flutter [MobileApp]",
+        "completed": true
+      }
+    ],
+    "date": "02 January 2025"
+  }
+]
